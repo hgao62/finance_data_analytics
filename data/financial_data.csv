@@ -1,0 +1,106 @@
+TransactionID,Date,StockSymbol,CompanyName,Sector,TransactionType,Quantity,PricePerShare,TotalAmount,Broker,PortfolioName,CustomerAge,CustomerGender,InvestmentHorizon
+5001,2023-08-20,UBER,Uber Technologies Inc.,Consumer Discretionary,Buy,36,86.98,3131.28,Robinhood,Education,59,Prefer not to say,Short-Term
+5002,2024-07-13,KO,The Coca-Cola Company,Materials,Buy,1,150.7,150.7,TD Ameritrade,Retirement,54,M,Medium-Term
+5003,2024-05-03,GOOGL,Alphabet Inc.,Real Estate,Buy,81,154.76,12535.56,TD Ameritrade,Wealth Growth,65,Non-binary,Short-Term
+5004,2024-02-29,DIS,The Walt Disney Company,Consumer Staples,Buy,35,44.27,1549.45,Charles Schwab,Emergency Fund,28,F,Short-Term
+5005,2022-11-11,ZM,Zoom Video Communications Inc.,Consumer Staples,Buy,9,65.39,588.51,Robinhood,Short-Term Goals,41,Prefer not to say,Long-Term
+5006,2022-10-29,NVDA,NVIDIA Corporation,Consumer Staples,Buy,18,120.89,2176.02,Robinhood,Emergency Fund,60,M,Long-Term
+5007,2022-10-11,TWTR,Twitter Inc.,Consumer Discretionary,Buy,69,388.93,26836.17,Robinhood,Retirement,65,Non-binary,Long-Term
+5008,2023-12-22,PYPL,PayPal Holdings Inc.,Materials,Buy,48,336.03,16129.44,TD Ameritrade,Education,28,F,Long-Term
+5009,2022-03-16,GOOGL,Alphabet Inc.,Consumer Discretionary,Sell,9,275.7,2481.3,Vanguard,Education,44,Prefer not to say,Long-Term
+5010,2022-07-08,UBER,Uber Technologies Inc.,Consumer Staples,Buy,67,92.38,6189.46,Fidelity,Emergency Fund,29,F,Medium-Term
+5011,2024-07-26,LYFT,Lyft Inc.,Utilities,Buy,17,67.6,1149.2,Vanguard,Retirement,31,M,Medium-Term
+5012,2024-07-26,TWTR,Twitter Inc.,Consumer Staples,Sell,14,44.97,629.58,Fidelity,Short-Term Goals,25,M,Short-Term
+5013,2022-06-19,TSLA,Tesla Inc.,Industrials,Buy,28,238.76,6685.28,Robinhood,Wealth Growth,34,F,Medium-Term
+5014,2022-03-05,BABA,Alibaba Group Holding Ltd.,Technology,Buy,70,229.82,16087.4,Fidelity,Education,50,M,Long-Term
+5015,2023-07-15,V,Visa Inc.,Materials,Buy,80,265.29,21223.2,E*TRADE,Emergency Fund,29,M,Medium-Term
+5016,2024-06-12,ORCL,Oracle Corporation,Materials,Sell,10,134.96,1349.6,Vanguard,Short-Term Goals,25,Non-binary,Long-Term
+5017,2022-09-25,AMZN,Amazon.com Inc.,Financials,Buy,14,63.53,889.42,Fidelity,Retirement,65,Prefer not to say,Medium-Term
+5018,2024-08-25,MSFT,Microsoft Corp.,Technology,Buy,17,1929.48,32801.16,TD Ameritrade,Short-Term Goals,60,F,Medium-Term
+5019,2023-03-27,JPM,JPMorgan Chase & Co.,Technology,Buy,6,2701.83,16210.98,Charles Schwab,Education,51,M,Short-Term
+5020,2024-04-25,TWTR,Twitter Inc.,Consumer Staples,Sell,53,25.13,1331.89,E*TRADE,Emergency Fund,44,F,Short-Term
+5021,2023-12-03,AAPL,Apple Inc.,Communication Services,Buy,36,395.64,14243.04,Charles Schwab,Short-Term Goals,41,M,Short-Term
+5022,2023-10-17,ORCL,Oracle Corporation,Industrials,Buy,41,139.28,5710.48,Vanguard,Education,48,Prefer not to say,Short-Term
+5023,2023-08-06,LYFT,Lyft Inc.,Consumer Staples,Buy,85,66.34,5638.9,Vanguard,Education,64,Non-binary,Medium-Term
+5024,2024-08-22,ADBE,Adobe Inc.,Technology,Buy,27,1318.17,35590.59,Fidelity,Emergency Fund,57,Non-binary,Short-Term
+5025,2022-08-13,SHOP,Shopify Inc.,Communication Services,Buy,29,590.84,17134.36,E*TRADE,Wealth Growth,50,F,Short-Term
+5026,2023-01-30,UBER,Uber Technologies Inc.,Technology,Sell,99,2662.12,263549.88,E*TRADE,Short-Term Goals,60,Non-binary,Medium-Term
+5027,2023-05-27,ORCL,Oracle Corporation,Real Estate,Buy,71,268.07,19032.97,E*TRADE,Retirement,43,F,Medium-Term
+5028,2023-06-04,BAC,Bank of America Corp.,Consumer Staples,Sell,11,67.06,737.66,Robinhood,Retirement,61,Prefer not to say,Medium-Term
+5029,2022-09-30,AAPL,Apple Inc.,Consumer Staples,Buy,50,94.46,4723.0,TD Ameritrade,Wealth Growth,35,Prefer not to say,Short-Term
+5030,2023-07-11,ORCL,Oracle Corporation,Real Estate,Buy,51,254.61,12985.11,E*TRADE,Emergency Fund,51,Non-binary,Short-Term
+5031,2024-09-09,INTC,Intel Corporation,Technology,Sell,7,2999.73,20998.11,Charles Schwab,Wealth Growth,32,F,Medium-Term
+5032,2021-10-16,SNAP,Snap Inc.,Healthcare,Sell,22,49.3,1084.6,E*TRADE,Wealth Growth,37,M,Long-Term
+5033,2022-07-25,SNAP,Snap Inc.,Communication Services,Buy,99,483.85,47901.15,Fidelity,Wealth Growth,56,M,Medium-Term
+5034,2022-12-28,DIS,The Walt Disney Company,Utilities,Sell,56,83.44,4672.64,Charles Schwab,Retirement,42,Prefer not to say,Short-Term
+5035,2024-10-03,SQ,Square Inc.,Utilities,Buy,86,88.63,7622.18,Fidelity,Short-Term Goals,37,M,Short-Term
+5036,2024-04-22,TWTR,Twitter Inc.,Industrials,Buy,98,130.25,12764.5,Robinhood,Short-Term Goals,47,Prefer not to say,Long-Term
+5037,2022-06-11,ADBE,Adobe Inc.,Consumer Staples,Buy,59,85.02,5016.18,,Short-Term Goals,58,Non-binary,Short-Term
+5038,2023-05-10,SHOP,Shopify Inc.,Communication Services,Buy,47,186.36,8758.92,Fidelity,Short-Term Goals,43,Prefer not to say,Medium-Term
+5039,2023-12-03,KO,The Coca-Cola Company,Consumer Staples,Buy,7,90.78,635.46,Fidelity,Education,32,Prefer not to say,Long-Term
+5040,2022-11-27,ORCL,Oracle Corporation,Materials,Buy,67,309.84,20759.28,Vanguard,Education,41,M,Short-Term
+5041,2023-05-13,V,Visa Inc.,Financials,Buy,21,122.82,2579.22,Vanguard,Short-Term Goals,37,Prefer not to say,Short-Term
+5042,2024-05-23,ADBE,Adobe Inc.,Communication Services,Buy,35,205.34,7186.9,TD Ameritrade,Short-Term Goals,59,Prefer not to say,Medium-Term
+5043,2023-07-08,GOOGL,Alphabet Inc.,Materials,Buy,56,332.14,18599.84,Robinhood,Retirement,36,Prefer not to say,Long-Term
+5044,2024-04-12,UBER,Uber Technologies Inc.,Utilities,Sell,24,14.94,358.56,E*TRADE,Emergency Fund,50,M,Medium-Term
+5045,2022-03-04,GOOGL,Alphabet Inc.,Consumer Staples,Buy,15,85.96,1289.4,Vanguard,Wealth Growth,28,F,Medium-Term
+5046,2024-10-11,ADBE,Adobe Inc.,Financials,Sell,57,15.49,882.93,Fidelity,Wealth Growth,32,F,Medium-Term
+5047,2021-11-23,IBM,International Business Machines Corporation,Healthcare,Buy,35,44.71,1564.85,E*TRADE,Emergency Fund,57,Non-binary,
+5048,2023-11-16,NFLX,Netflix Inc.,Healthcare,Sell,75,92.83,6962.25,Vanguard,Education,61,Prefer not to say,Short-Term
+5049,2023-06-30,BA,Boeing Co.,Industrials,Buy,96,58.35,5601.6,TD Ameritrade,Retirement,53,M,Long-Term
+5050,2024-09-25,IBM,International Business Machines Corporation,Utilities,Buy,19,66.73,1267.87,Robinhood,Wealth Growth,45,Prefer not to say,
+5051,2023-01-31,MSFT,Microsoft Corp.,Materials,Buy,81,133.8,10837.8,Fidelity,Retirement,45,M,Medium-Term
+5052,2023-05-14,DIS,The Walt Disney Company,Consumer Staples,Buy,32,131.92,4221.44,E*TRADE,Emergency Fund,54,Non-binary,Long-Term
+5053,2024-06-26,AAPL,Apple Inc.,Utilities,Sell,87,48.4,4210.8,E*TRADE,Retirement,40,Prefer not to say,Long-Term
+5054,2022-06-19,DIS,The Walt Disney Company,Materials,Buy,90,208.76,18788.4,TD Ameritrade,Education,63,Non-binary,Short-Term
+5055,2024-07-23,UBER,Uber Technologies Inc.,Communication Services,Buy,87,107.96,9392.52,Charles Schwab,Retirement,43,Non-binary,Long-Term
+5056,2022-10-23,PFE,Pfizer Inc.,Financials,Buy,70,105.34,7373.8,Fidelity,Wealth Growth,29,F,Short-Term
+5057,2022-03-06,BA,Boeing Co.,Industrials,Sell,72,206.62,14876.64,Fidelity,Education,55,M,Long-Term
+5058,2021-11-23,GE,General Electric Company,Real Estate,Buy,79,186.96,14769.84,Fidelity,Education,59,F,
+5059,2023-01-29,KO,The Coca-Cola Company,Consumer Staples,Buy,96,101.69,9762.24,Vanguard,Emergency Fund,38,Prefer not to say,Medium-Term
+5060,2024-09-08,V,Visa Inc.,Consumer Staples,Buy,88,145.55,12808.4,Vanguard,Short-Term Goals,26,M,Medium-Term
+5061,2023-01-03,V,Visa Inc.,Financials,Sell,27,49.36,1332.72,Charles Schwab,Education,59,Non-binary,Short-Term
+5062,2023-12-26,AMZN,Amazon.com Inc.,Technology,Buy,46,2380.45,109500.7,Robinhood,Short-Term Goals,31,Prefer not to say,Long-Term
+5063,2022-06-07,V,Visa Inc.,Materials,Buy,85,47.93,4074.05,Fidelity,Emergency Fund,63,F,Short-Term
+5064,2023-03-31,JPM,JPMorgan Chase & Co.,Healthcare,Buy,75,118.89,8916.75,Robinhood,Education,52,Prefer not to say,Short-Term
+5065,2022-12-19,PFE,Pfizer Inc.,Consumer Staples,Sell,52,31.37,1631.24,Fidelity,Emergency Fund,33,M,Long-Term
+5066,2021-11-13,ADBE,Adobe Inc.,Real Estate,Buy,16,96.62,1545.92,Charles Schwab,Wealth Growth,39,M,Medium-Term
+5067,2024-03-20,BA,Boeing Co.,Real Estate,Buy,98,324.05,31756.9,Vanguard,Emergency Fund,26,F,Medium-Term
+5068,2023-01-29,SNAP,Snap Inc.,Healthcare,Sell,45,44.05,1982.25,TD Ameritrade,Education,48,Non-binary,Long-Term
+5069,2024-03-30,BAC,Bank of America Corp.,Materials,Buy,7,214.69,1502.83,TD Ameritrade,Wealth Growth,32,Non-binary,Long-Term
+5070,2022-08-10,LYFT,Lyft Inc.,Materials,Buy,86,65.59,5640.74,E*TRADE,Wealth Growth,36,F,Medium-Term
+5071,2024-07-11,ADBE,Adobe Inc.,Communication Services,Buy,86,54.11,4653.46,E*TRADE,Emergency Fund,32,Prefer not to say,Short-Term
+5072,2023-03-29,BAC,Bank of America Corp.,Financials,Sell,80,78.75,6300.0,,Emergency Fund,35,M,Long-Term
+5073,2024-09-10,UBER,Uber Technologies Inc.,Consumer Discretionary,Buy,25,187.7,4692.5,Vanguard,Retirement,36,Prefer not to say,Medium-Term
+5074,2023-01-17,SQ,Square Inc.,Materials,Sell,58,259.93,15075.94,TD Ameritrade,Short-Term Goals,28,Non-binary,Long-Term
+5075,2024-01-15,GOOGL,Alphabet Inc.,Healthcare,Buy,5,215.27,1076.35,Fidelity,Wealth Growth,61,F,Medium-Term
+5076,2023-10-13,ORCL,Oracle Corporation,Utilities,Buy,8,72.22,577.76,Robinhood,Education,48,Non-binary,Medium-Term
+5077,2023-10-02,NVDA,NVIDIA Corporation,Industrials,Sell,87,95.98,8350.26,Charles Schwab,Emergency Fund,30,F,Medium-Term
+5078,2022-10-09,NFLX,Netflix Inc.,Industrials,Buy,91,251.25,22863.75,Vanguard,Wealth Growth,57,Non-binary,Short-Term
+5079,2022-10-05,DIS,The Walt Disney Company,Healthcare,Buy,28,47.19,1321.32,Robinhood,Retirement,46,F,Long-Term
+5080,2022-07-31,NVDA,NVIDIA Corporation,Financials,Buy,89,41.45,3689.05,E*TRADE,Education,59,F,Medium-Term
+5081,2022-08-30,ZM,Zoom Video Communications Inc.,Utilities,Sell,25,96.8,2420.0,Charles Schwab,Emergency Fund,28,Prefer not to say,Medium-Term
+5082,2022-12-29,ADBE,Adobe Inc.,Consumer Discretionary,Sell,67,156.83,10507.61,TD Ameritrade,Retirement,51,M,Medium-Term
+5083,2021-10-23,PYPL,PayPal Holdings Inc.,Consumer Staples,Buy,11,120.79,1328.69,Charles Schwab,Wealth Growth,53,M,Short-Term
+5084,2024-05-14,AAPL,Apple Inc.,Healthcare,Buy,20,79.14,1582.8,Fidelity,Wealth Growth,63,M,Long-Term
+5085,2022-01-09,PYPL,PayPal Holdings Inc.,Materials,Buy,19,226.75,4308.25,Robinhood,Short-Term Goals,26,Prefer not to say,Medium-Term
+5086,2024-07-02,MSFT,Microsoft Corp.,Industrials,Sell,33,180.84,5967.72,TD Ameritrade,Education,54,Prefer not to say,Long-Term
+5087,2022-10-27,TSLA,Tesla Inc.,Financials,Buy,100,48.3,4830.0,Fidelity,Education,43,Non-binary,Short-Term
+5088,2022-01-30,BA,Boeing Co.,Consumer Staples,Buy,48,36.15,1735.2,Fidelity,Wealth Growth,30,Prefer not to say,Long-Term
+5089,2022-01-09,SHOP,Shopify Inc.,Financials,Buy,42,66.17,2779.14,Robinhood,Wealth Growth,42,M,Short-Term
+5090,2022-07-28,LYFT,Lyft Inc.,Industrials,Buy,96,34.16,3279.36,Robinhood,Retirement,63,F,Long-Term
+5091,2024-03-07,KO,The Coca-Cola Company,Consumer Staples,Buy,98,144.47,14158.06,Fidelity,Emergency Fund,41,Prefer not to say,Short-Term
+5092,2023-02-09,ORCL,Oracle Corporation,Healthcare,Buy,63,181.21,11416.23,Vanguard,Retirement,60,Non-binary,Medium-Term
+5093,2021-11-26,BA,Boeing Co.,Financials,Sell,90,106.66,9599.4,Robinhood,Education,64,M,Short-Term
+5094,2023-04-09,NFLX,Netflix Inc.,Industrials,Sell,93,36.14,3361.02,Robinhood,Short-Term Goals,36,F,Medium-Term
+5095,2021-11-28,PYPL,PayPal Holdings Inc.,Technology,Sell,67,501.4,33593.8,Robinhood,Emergency Fund,33,Non-binary,Long-Term
+5096,2024-02-12,ADBE,Adobe Inc.,Consumer Discretionary,Buy,22,298.71,6571.62,Vanguard,Short-Term Goals,41,F,Long-Term
+5097,2021-12-05,PFE,Pfizer Inc.,Materials,Buy,64,80.07,5124.48,E*TRADE,Wealth Growth,54,F,Medium-Term
+5098,2023-02-14,ORCL,Oracle Corporation,Financials,Buy,92,75.62,6957.04,Charles Schwab,Retirement,28,Non-binary,Medium-Term
+5099,2023-07-17,BA,Boeing Co.,Materials,Buy,21,54.22,1138.62,E*TRADE,Short-Term Goals,54,F,Short-Term
+5100,2024-06-13,CRM,Salesforce.com Inc.,Consumer Staples,Buy,37,128.6,4758.2,TD Ameritrade,Retirement,50,M,Long-Term
+5084,2024-05-14,AAPL,Apple Inc.,Healthcare,Buy,20,79.14,1582.8,Fidelity,Wealth Growth,63,M,Long-Term
+5054,2022-06-19,DIS,The Walt Disney Company,Materials,Buy,90,208.76,18788.4,TD Ameritrade,Education,63,Non-binary,Short-Term
+5071,2024-07-11,ADBE,Adobe Inc.,Communication Services,Buy,86,54.11,4653.46,E*TRADE,Emergency Fund,32,Prefer not to say,Short-Term
+5046,2024-10-11,ADBE,Adobe Inc.,Financials,Sell,57,15.49,882.93,Fidelity,Wealth Growth,32,F,Medium-Term
+5045,2022-03-04,GOOGL,Alphabet Inc.,Consumer Staples,Buy,15,85.96,1289.4,Vanguard,Wealth Growth,28,F,Medium-Term
