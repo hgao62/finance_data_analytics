@@ -3,7 +3,7 @@
 import pytest
 import pandas as pd
 import numpy as np
-from main import (
+from analysis import (
     handle_missing_values,
     remove_duplicates,
     detect_and_handle_outliers,

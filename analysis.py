@@ -407,16 +407,18 @@ def generate_customer_demographics_summary(data, summary):
 
 def compile_executive_summary(summary):
     """
-    Compile the executive summary and embed key charts into a Markdown file.
+    Compile the executive summary and embed key charts into a Markdown file using HTML image tags.
     
     Parameters:
         summary (list): List of executive summary bullet points.
     """
-    with open('reports/executive_summary.md', 'w',encoding='utf-8') as f:
+    with open('reports/executive_summary.md', 'w', encoding='utf-8') as f:
         f.write("# Executive Summary\n\n")
         for point in summary:
             f.write(f"{point}\n")
+        
         f.write("\n## Key Charts\n")
+        
         chart_files = [
             'portfolio_allocation.png',
             'sector_performance.png',
@@ -430,11 +432,16 @@ def compile_executive_summary(summary):
             'profit_loss_analysis.png',
             'broker_performance.png'
         ]
+        
         for chart in chart_files:
             chart_title = chart.split('.')[0].replace('_', ' ').title()
-            f.write(f"![{chart_title}](charts/{chart})\n")
+            # Use HTML <img> tag instead of Markdown syntax
+            f.write(f'<h3>{chart_title}</h3>\n')
+            f.write(f'<img alt="{chart_title}" src="../charts/{chart}" width="1000">\n\n')
+    
     print("\n=== Executive Summary Generated ===")
     print("Executive summary is available in 'reports/executive_summary.md'.")
+
 
 def generate_all_charts(data, summary):
     """

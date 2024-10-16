@@ -4,9 +4,8 @@ REM This script activates the virtual environment, generates financial data, and
 
 REM Check if virtual environment exists
 IF NOT EXIST "venv\Scripts\activate.bat" (
-    echo Virtual environment not found. Please create it using:
-    echo python -m venv venv
-    exit /b 1
+    echo Virtual environment not found. creating venv virtual environment now:
+    call python -m venv venv
 )
 
 REM Activate the virtual environment
@@ -27,12 +26,12 @@ python data\generate_financial_data.py
 
 REM Run the analysis
 echo Running data analysis...
-python main.py
+python analysis.py
 
 
 echo.
 echo All tasks completed successfully.
-pause
+
 
 
 REM After running analysis.py
@@ -44,7 +43,9 @@ pytest || (
     exit /b 1
 )
 
-
+echo All unit tests passed
 REM Deactivate the virtual environment
 echo Deactivating virtual environment...
 deactivate
+pause
+

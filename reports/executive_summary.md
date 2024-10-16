@@ -9,17 +9,39 @@
 • **Transaction Volume Over Time:** Transaction activity has been consistent with occasional peaks during specific months.
 • **Profit/Loss Analysis:** Sell transactions have generated profits across various stocks, with significant gains in high-performing sectors.
 • **Broker Performance:** Fidelity and Charles Schwab handle the majority of the investment transactions, indicating their popularity among investors.
-• **Customer Demographics:** The primary investor is a 32-year-old prefer not to say with a medium-term investment horizon.
+• **Customer Demographics:** The primary investor is a 41-year-old m with a medium-term investment horizon.
 
 ## Key Charts
-![Portfolio Allocation](charts/portfolio_allocation.png)
-![Sector Performance](charts/sector_performance.png)
-![Stock Trend](charts/stock_trend.png)
-![Risk Analysis](charts/risk_analysis.png)
-![Return Analysis](charts/return_analysis.png)
-![Top Investments](charts/top_investments.png)
-![Customer Age Distribution](charts/customer_age_distribution.png)
-![Customer Gender Distribution](charts/customer_gender_distribution.png)
-![Transaction Volume](charts/transaction_volume.png)
-![Profit Loss Analysis](charts/profit_loss_analysis.png)
-![Broker Performance](charts/broker_performance.png)
+<h3>Portfolio Allocation</h3>
+<img alt="Portfolio Allocation" src="../charts/portfolio_allocation.png" width="1000">
+
+<h3>Sector Performance</h3>
+<img alt="Sector Performance" src="../charts/sector_performance.png" width="1000">
+
+<h3>Stock Trend</h3>
+<img alt="Stock Trend" src="../charts/stock_trend.png" width="1000">
+
+<h3>Risk Analysis</h3>
+<img alt="Risk Analysis" src="../charts/risk_analysis.png" width="1000">
+
+<h3>Return Analysis</h3>
+<img alt="Return Analysis" src="../charts/return_analysis.png" width="1000">
+
+<h3>Top Investments</h3>
+<img alt="Top Investments" src="../charts/top_investments.png" width="1000">
+
+<h3>Customer Age Distribution</h3>
+<img alt="Customer Age Distribution" src="../charts/customer_age_distribution.png" width="1000">
+
+<h3>Customer Gender Distribution</h3>
+<img alt="Customer Gender Distribution" src="../charts/customer_gender_distribution.png" width="1000">
+
+<h3>Transaction Volume</h3>
+<img alt="Transaction Volume" src="../charts/transaction_volume.png" width="1000">
+
+<h3>Profit Loss Analysis</h3>
+<img alt="Profit Loss Analysis" src="../charts/profit_loss_analysis.png" width="1000">
+
+<h3>Broker Performance</h3>
+<img alt="Broker Performance" src="../charts/broker_performance.png" width="1000">
+
