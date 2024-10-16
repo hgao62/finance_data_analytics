@@ -6,6 +6,8 @@ import seaborn as sns
 import numpy as np
 from datetime import datetime
 import os
+import markdown
+import pdfkit
 
 def setup_directories():
     """
@@ -415,7 +417,7 @@ def compile_executive_summary(summary):
     with open('reports/executive_summary.md', 'w', encoding='utf-8') as f:
         f.write("# Executive Summary\n\n")
         for point in summary:
-            f.write(f"{point}\n")
+            f.write(f"{point}\n\n")
         
         f.write("\n## Key Charts\n")
         
@@ -437,11 +439,32 @@ def compile_executive_summary(summary):
             chart_title = chart.split('.')[0].replace('_', ' ').title()
             # Use HTML <img> tag instead of Markdown syntax
             f.write(f'<h3>{chart_title}</h3>\n')
-            f.write(f'<img alt="{chart_title}" src="../charts/{chart}" width="1000">\n\n')
+            # f.write(f'<img alt="{chart_title}" src="../charts/{chart}" width="1000">\n\n')
+            f.write(f'<img alt="{chart_title}" src="file:///C:/development/repo/finance_data_analytics/charts/{chart}" width="500">\n\n')
+            
     
     print("\n=== Executive Summary Generated ===")
     print("Executive summary is available in 'reports/executive_summary.md'.")
 
+def generate_pdf_from_md(md_file_path, pdf_file_path):
+    wkhtml_to_pdf_path = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
+    config = pdfkit.configuration(wkhtmltopdf=wkhtml_to_pdf_path)
+    options = {
+    'page-size': 'A4',
+    'encoding': 'UTF-8',
+    'no-stop-slow-scripts': None,
+    'enable-local-file-access': None,
+    'disable-smart-shrinking': None  # Add this option
+}
+    # Read the Markdown file
+    with open(md_file_path, 'r',encoding='utf-8') as f:
+        md_content = f.read()
+    
+    # Convert Markdown to HTML
+    html_content = markdown.markdown(md_content)
+
+    # Generate PDF from HTML
+    pdfkit.from_string(html_content, pdf_file_path,configuration=config,options=options)
 
 def generate_all_charts(data, summary):
     """
@@ -483,6 +506,7 @@ def main():
     generate_all_charts(data, executive_summary)
     
     compile_executive_summary(executive_summary)
+    generate_pdf_from_md('reports/executive_summary.md','reports/executive_summary.pdf')
     print("\nCharts have been saved in the 'charts/' directory.")
 
 if __name__ == "__main__":
